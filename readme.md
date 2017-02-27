@@ -19,4 +19,10 @@ Then add the following 2 lines to you're `package.json`'s scripts entry
 "deploy": "gh-pages -d build",
 ```
 
+Then modify the `<base>` href to point to your github pages url. For example:
+
+```html
+<base href="https://ultimatesoftware.github.io/ng6-github-pages-example/">
+```
+
 Then execute `npm run deploy` to deploy your web app to `https://<github-username>.github.io/<repo-name>`
