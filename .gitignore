@@ -1,0 +1,7 @@
+node_modules
+shared_modules
+build
+.idea
+.DS_Store
+npm-debug.log
+yarn-error.log
